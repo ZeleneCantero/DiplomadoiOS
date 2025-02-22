@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="segundoEjercicioConstrain" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbc-mq-f4b">
+                                <rect key="frame" x="177.66666666666666" y="448.66666666666669" width="75" height="34.999999999999943"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="large"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="df9-r9-o3I"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1aca61ab8b723da396dcede15c92eb43" translatesAutoresizingMaskIntoConstraints="NO" id="1Wm-4z-IvC">
+                                <rect key="frame" x="190" y="46575" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="TBF-Mj-SeY"/>
+                                    <constraint firstAttribute="width" secondItem="1Wm-4z-IvC" secondAttribute="height" id="lDH-Jb-ZlV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foco-LED-Encendido-y-Apagado-Automático-con-Sensor-de-Luz-8" translatesAutoresizingMaskIntoConstraints="NO" id="ctZ-Qe-JYs">
+                                <rect key="frame" x="190" y="541" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="6gl-aw-l0s"/>
+                                    <constraint firstAttribute="width" secondItem="ctZ-Qe-JYs" secondAttribute="height" id="mC5-Hy-6U0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1aca61ab8b723da396dcede15c92eb43" translatesAutoresizingMaskIntoConstraints="NO" id="KLV-XQ-OBZ">
+                                <rect key="frame" x="190" y="341" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4dQ-Vs-XW6"/>
+                                    <constraint firstAttribute="width" secondItem="KLV-XQ-OBZ" secondAttribute="height" id="jbj-ti-Ale"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ctZ-Qe-JYs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="64s-Wy-NWS"/>
+                            <constraint firstItem="Hbc-mq-f4b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E0W-8s-hid"/>
+                            <constraint firstItem="Hbc-mq-f4b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NiJ-xL-iF3"/>
+                            <constraint firstItem="ctZ-Qe-JYs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YTL-Nn-E71"/>
+                            <constraint firstItem="1Wm-4z-IvC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="100" id="cR1-xl-5s9"/>
+                            <constraint firstItem="KLV-XQ-OBZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="ca2-TF-6Ud"/>
+                            <constraint firstItem="KLV-XQ-OBZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sCS-O4-rvv"/>
+                            <constraint firstItem="1Wm-4z-IvC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xmS-Ek-7Kg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="focoApagado" destination="ctZ-Qe-JYs" id="xhF-gp-Qm5"/>
+                        <outlet property="focoPrendido" destination="KLV-XQ-OBZ" id="xPk-yS-g8W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1aca61ab8b723da396dcede15c92eb43" width="1200" height="1600"/>
+        <image name="Foco-LED-Encendido-y-Apagado-Automático-con-Sensor-de-Luz-8" width="1000" height="1000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
