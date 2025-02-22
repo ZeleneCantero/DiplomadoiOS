@@ -1,0 +1,214 @@
+{
+  "pizzas" : [
+    {
+      "name" : "Margherita",
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Basil"
+      ]
+    },
+    {
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Pepperoni"
+      ],
+      "name" : "Pepperoni"
+    },
+    {
+      "name" : "Hawaiian",
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Ham",
+        "Pineapple"
+      ]
+    },
+    {
+      "name" : "Veggie",
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Mushrooms",
+        "Bell Peppers",
+        "Onions",
+        "Olives"
+      ]
+    },
+    {
+      "name" : "BBQ Chicken",
+      "ingredients" : [
+        "BBQ Sauce",
+        "Mozzarella Cheese",
+        "Chicken",
+        "Red Onions",
+        "Cilantro"
+      ]
+    },
+    {
+      "ingredients" : [
+        "Buffalo Sauce",
+        "Mozzarella Cheese",
+        "Chicken",
+        "Red Onions",
+        "Blue Cheese"
+      ],
+      "name" : "Buffalo Chicken"
+    },
+    {
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Pepperoni",
+        "Sausage",
+        "Bacon",
+        "Ham",
+        "Beef"
+      ],
+      "name" : "Meat Lover's"
+    },
+    {
+      "name" : "Four Cheese",
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Parmesan Cheese",
+        "Gorgonzola Cheese",
+        "Feta Cheese"
+      ]
+    },
+    {
+      "ingredients" : [
+        "Pesto Sauce",
+        "Mozzarella Cheese",
+        "Tomatoes",
+        "Chicken"
+      ],
+      "name" : "Pesto"
+    },
+    {
+      "ingredients" : [
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Jalapeños",
+        "Onions",
+        "Pepperoni",
+        "Chorizo"
+      ],
+      "name" : "Mexican"
+    },
+    {
+      "ingredients" : [
+        "Onions",
+        "Mushrooms"
+      ],
+      "name" : "Pizza"
+    },
+    {
+      "ingredients" : [
+        "Olives",
+        "Onions"
+      ],
+      "name" : "Pizzería Tazz"
+    },
+    {
+      "ingredients" : [
+        "Pineapple"
+      ],
+      "name" : "Pizza Tazz"
+    },
+    {
+      "name" : "mnbvc",
+      "ingredients" : [
+        "Mushrooms",
+        "Ham"
+      ]
+    },
+    {
+      "name" : "kijuhyh",
+      "ingredients" : [
+        "Olives",
+        "Pepperoni"
+      ]
+    }
+  ],
+  "pizzerias" : [
+    {
+      "name" : "La Casa de la Pizza",
+      "address" : "Av. Miguel Ángel de Quevedo 100, Coyoacán, 04000 Ciudad de México, CDMX"
+    },
+    {
+      "name" : "Pizzería Napolitana",
+      "address" : "Parque Centenario 9, Coyoacán, 04000 Ciudad de México, CDMX"
+    },
+    {
+      "coordinates" : {
+        "longitude" : -99.15869,
+        "latitude" : 19.35498
+      },
+      "address" : "Jardín Plaza Hidalgo 25, Coyoacán, 04000 Ciudad de México, CDMX",
+      "name" : "Il Forno di Gio"
+    },
+    {
+      "coordinates" : {
+        "latitude" : 19.36124,
+        "longitude" : -99.17028
+      },
+      "address" : "Av. México 111, Coyoacán, 04100 Ciudad de México, CDMX",
+      "name" : "Pizza del Perro Negro"
+    },
+    {
+      "name" : "Pizzicato Gourmet",
+      "address" : "Calle Xicoténcatl 276, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX",
+      "coordinates" : {
+        "latitude" : 19.34873,
+        "longitude" : -99.16283
+      }
+    },
+    {
+      "name" : "Universo Pizza",
+      "coordinates" : {
+        "latitude" : 19.32454,
+        "longitude" : -99.18603
+      },
+      "address" : "Circuito Universitario, C.U., 04510 Ciudad de México, CDMX"
+    },
+    {
+      "name" : "Pizza CU",
+      "coordinates" : {
+        "longitude" : -99.18422,
+        "latitude" : 19.31738
+      },
+      "address" : "Av. Universidad 3000, Universidad Nacional Autónoma de México, C.U., 04510 Ciudad de México, CDMX"
+    }
+  ],
+  "ingredients" : [
+    "Tomato Sauce",
+    "Mozzarella Cheese",
+    "Basil",
+    "Pepperoni",
+    "Ham",
+    "Pineapple",
+    "Mushrooms",
+    "Bell Peppers",
+    "Onions",
+    "Olives",
+    "BBQ Sauce",
+    "Chicken",
+    "Red Onions",
+    "Cilantro",
+    "Buffalo Sauce",
+    "Blue Cheese",
+    "Sausage",
+    "Bacon",
+    "Beef",
+    "Parmesan Cheese",
+    "Gorgonzola Cheese",
+    "Feta Cheese",
+    "Pesto Sauce",
+    "Tomatoes",
+    "Jalapeños",
+    "Chorizo"
+  ]
+}
